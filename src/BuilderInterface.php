@@ -2,11 +2,11 @@
 
 namespace Builder;
 
-use Builde\Parts\Animal;
+use Builder\Parts\Animal;
 
 interface BuilderInterface{
 
-    public function criarAnimal();
+    public function criarAnimal(); 
 
     public function addOlho();
 

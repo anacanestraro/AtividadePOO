@@ -14,7 +14,7 @@ class GatoBuilder implements BuilderInterface{
     private $gato;
 
     public function criarAnimal(){
-        $this->gato = new Animal;
+        $this->gato = new Gato;
     }
 
     public function addOlho(){

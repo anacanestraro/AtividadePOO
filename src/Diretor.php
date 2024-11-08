@@ -2,9 +2,9 @@
 
 namespace Builder;
 
-use Buider\Parts\Animal;
+use Builder\Parts\Animal;
 
-class Director{
+class Diretor{
      public function build(BuilderInterface $builder): Animal{
 
         $builder->criarAnimal();

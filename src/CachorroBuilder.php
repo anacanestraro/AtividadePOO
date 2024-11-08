@@ -14,7 +14,7 @@ class CachorroBuilder implements BuilderInterface{
     private $cachorro;
 
     public function criarAnimal(){
-        $this->cachorro = new Animal;
+        $this->cachorro = new Cachorro;
     }
 
     public function addOlho(){
